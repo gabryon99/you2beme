@@ -19,7 +19,7 @@ class MyLogger(object):
         print(msg)
 
 # get the telegram bot token
-token = os.getenv(telegram_token)
+token = os.getenv("telegram_token")
 # create socket and dispacther
 bot = Bot(token=token)
 dispatcher = Dispatcher(bot)
